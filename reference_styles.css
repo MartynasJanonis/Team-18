@@ -1,3 +1,5 @@
+/* When assigned to an <a></a> tag, it will make the text superscript and smaller - it will appear like references in Wikipedia */
+
 .ref {
     font-size: 9px;
     vertical-align: super;
