@@ -55,6 +55,7 @@ div[class^="col-"] {
 
 .nav {
   padding-top: 25px;
+  padding-bottom: 10vh;
 }
 
 .nav-button {
@@ -80,7 +81,7 @@ h1 {
   font-family: "europa";
   font-weight: 700;
   color: black;
-  font-size: 120px;
+  font-size: 100px;
   margin-left: -10px;
 }
 
@@ -88,6 +89,12 @@ h1 {
   width: 30px;
   margin-left: -35px;
   margin-top: 10vh;
+}
+
+.landing-img {
+  width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
 }
 
 .quote {
