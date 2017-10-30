@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Some of the recent publications in the AI industry">
+  <meta name="author" content="Ralf Yap - Team 18">
+  <title>Researchers and Recent Publications</title>
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+</head>
+
+<!-- Only to make it look nice while I'm editing -->
+<style>
+    body {
+        font-family: "SF Pro Text";
+    }
+</style>
+
+<div>
+  <h1>Publications and Researchers</h1>
+</div>
+
+<!-- Section introduction -->
+<div>
+    <p>
+        The artificial intelligence industry is progressing at a rapid rate, with new technologies being introduced and new papers being published every day. Here are some of the recent developments in AI.
+    </p>
+</div>
+
+<div>
+    <h2>UCL RobERt</h2>
+    <h3>Looking At The Stars - Or Exoplanets</h3>
+    <p>
+        In 2016, researchers at UCL, led by Dr. Ingo Waldmann, unveiled the Robotic Exoplanet Recognition system (called RobERt), which uses machine learning to identify the chemical composition of the atmospheres of exoplanets. RobERt is built on a deep-belief nerual network<a href="#" class="ref">[1]</a>, and learns by being given sample data of atmospheric compositions. Typically, it takes astronomers many days to anaylse one exoplanet's atmosphere, especially because of the immense volume of data being gathered. RobERt would significantly speed up this process and help make finding the next habitable planet much easier.
+        <br>
+        Dr. Waldmann's paper can be found on the <a href="http://adsabs.harvard.edu/abs/2017DPS....4940205W">American Astronomical Society Astronomy Abstract Service</a><a href="#" class="ref">[2]</a>
+    </p>
+
+    <h4>Interesing Links</h4>
+    <ul>
+        <li>
+            <p>
+                UCL
+                <br>
+                <a href="http://www.ucl.ac.uk/mathematical-physical-sciences/maps-news-publication/detective-exoplanet-atmospheres">Meet RobERt, the dreaming detective for exoplanet atmospheres</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                POPULAR SCIENCE
+                <br>
+                <a href="https://www.popsci.com/how-scientists-will-use-artificial-intelligence-to-find-aliens">How scientists will use artificial intelligence to find aliens</a>
+            </p>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h2>Backpropagation</h2>
+    <h3>The Silicon Brain</h3>
+    <p>
+        Geoffrey Hinton is one of the principal researchers in artificial intelligence. His most notable work involved utilising backpropagation to train neural networks. Neural networks learn by comparing the output it produces to the desired correct output (specified by the human supervisor), and then adapting its "neural connections" accordingly. Such an example could be in attempting to recognise images of cats - if a neural network is shown an image of a cat, and it incorrectly states (outputs) that it is not a cat, this error will be used to update the connections in the network so that it can more accurately identify images of cats.
+    </p>
+</div>
+
+<div>
+    <h2>Generative Adversarial Networks (GANs)</h2>
+    <h3>Machine versus Machine</h3>
+    <p>
+        A neural network is a system that is built to model the structure of the human brain and the networks of neurons that make up the nervous system.
+        <br>
+        A Generative Adversarial Network (GAN) consists of two neural networks that are made to compete against each other: a generator and a discriminator<a href="#" class="ref">[3]</a>. The generator is given a set of randomised "noisy" input, and from it must produce a piece of data, such as an image of a dog. This data is subsequently passed into the discriminator, along with real data not created synthetically by the generator. The role of the discriminator is to determine whether or not the data it is receiving was produced by the generator. The goal of the generator is to develop data that is realistic enough to fool the discriminator, whilst the goal of the discriminator is to be smart enough to recognise the difference between the real and generated pieces of data. This back-and-forth feedback loop between the two networks is an effective method of training both networks.
+        <br>
+        The concept of GANs was conceived by researcher Ian Goodfellow and a number of partners. Their paper, published in 2014, can be found on <a href="https://arxiv.org/abs/1406.2661)">arXiv.org</a><a href="#" class="ref">[4]</a>
+    </p>
+
+</div>
+
+<!-- Information references -->
+<div>
+    <h3 id="references">References</h3>
+    <ol>
+        <li>
+            UCL Mathematical and Physical Sciences, 28/06/2017; Last accessed: 30/10/2017; URL: <a href="http://www.ucl.ac.uk/mathematical-physical-sciences/maps-news-publication/detective-exoplanet-atmospheres">http://www.ucl.ac.uk/mathematical-physical-sciences/maps-news-publication/detective-exoplanet-atmospheres</a>
+        </li>
+        <li>
+            Faizan Shaikh, Analytics Vidhya, 15/06/2017; Last accessed: 30/10/2017; URL: <a href="https://www.analyticsvidhya.com/blog/2017/06/introductory-generative-adversarial-networks-gans/">https://www.analyticsvidhya.com/blog/2017/06/introductory-generative-adversarial-networks-gans/</a>
+        </li>
+        <li>
+            Ian J. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, Cornell University Library, 10/06/2014; Last accessed: 30/10/2017; URL: <a href="https://arxiv.org/abs/1406.2661">https://arxiv.org/abs/1406.2661</a>
+        </li>
+        <li>
+            Ingo Waldmann, American Astronomical Society, DPS meeting #49, id.402.05, 10/2017; Last accessed: 30/10/2017; URL: <a href="http://adsabs.harvard.edu/abs/2017DPS....4940205W">http://adsabs.harvard.edu/abs/2017DPS....4940205W</a>
+        </li>
+    </ol>
+</div>
+
+<!-- Image references in order of appearance-->
+<div>
+    <h3 id="img_ref">Image references</h3>
+    <ul>
+    </ul>
+</div>
