@@ -18,6 +18,9 @@ body {
   height: 100vh;
   z-index: -1;
   background-color: transparent;
+  -webkit-transition: background-color 200ms ease-in;
+  -ms-transition: background-color 200ms ease-in;
+  transition: background-color 200ms ease-in;
 }
 
 .background-text {
@@ -29,6 +32,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#section-text {
+  -webkit-transition: color 150ms linear;
+  -ms-transition: color 150ms linear;
+  transition: color 150ms linear;
 }
 
 h2{
@@ -49,6 +58,9 @@ h2{
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: #CFD5DB;
+  -webkit-transition: border-color 300ms ease-in;
+  -ms-transition: border-color 300ms ease-in;
+  transition: border-color 300ms ease-in;
 }
 
 .grid-last {
@@ -63,13 +75,18 @@ div[class^="col-"] {
 }
 
 .nav {
+  position: fixed;
   padding-top: 25px;
   padding-bottom: 10vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .nav-button {
   display: block;
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: "europa";
   font-weight: 700;
   color: black;
@@ -82,7 +99,7 @@ div[class^="col-"] {
 }
 
 .logo {
-  width: 45px;
+  width: 35px;
 }
 
 h1 {
@@ -103,6 +120,10 @@ h1 {
   width: 100%;
   padding-top: 10vh;
   padding-bottom: 5vh;
+}
+
+.top-margin {
+  padding-top: 20vh;
 }
 
 .quote {
