@@ -8,7 +8,16 @@ body {
   left: 5vw;
   right: 5vw;
   height: 100vh;
+  z-index: -2;
+}
+
+.background-cover {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100vh;
   z-index: -1;
+  background-color: transparent;
 }
 
 .background-text {
@@ -207,4 +216,8 @@ h5 {
   padding-left: 20px;
   font-weight: 400;
   font-size: 32px;
+}
+
+.text-white {
+  color: white;
 }
