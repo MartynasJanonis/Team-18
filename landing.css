@@ -82,7 +82,6 @@ h1 {
   font-weight: 700;
   color: black;
   font-size: 100px;
-  margin-left: -10px;
 }
 
 .scroll-img {
@@ -198,4 +197,14 @@ h5 {
     color: inherit;
     vertical-align: super;
     text-decoration: none;
+}
+
+.drop-cap {
+  float: left;
+  color: black;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 32px;
 }
