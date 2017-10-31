@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Interview with Dr. Sunny Bains">
-  <meta name="author" content="Ralf Michael Yap - Team 18">
+  <meta name="description" content="Everything about AI research">
+  <meta name="author" content="Team 18">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>AI Research</title> <!-- CHANGE -->
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -30,25 +32,14 @@
 
   </div>
 
-  
-    <button onclick="showHide()">Read more</button>
-
-    <div id="showHide">
-      <p>TESTING</p>
-    </div>
-    
-    
-
-  <script>
-    function showHide() {
-     var x = document.getElementById("showHide");
-     if (x.style.display === "none") {
-         x.style.display = "block";
-     } else {
-         x.style.display = "none";
-     }
-    }
-  </script>
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#col">Read the interview</button>
+  <div id="col" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
 
 </body>
 </html>
