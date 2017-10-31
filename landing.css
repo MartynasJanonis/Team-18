@@ -172,6 +172,9 @@ h5 {
 .ref {
   font-size: 14px;
   padding-top: 10vh;
+  color: inherit;
+  vertical-align: super;
+  text-decoration: none;
 }
 
 .link {
@@ -202,10 +205,6 @@ h5 {
 }
 
 .ref {
-    font-size: 12px;
-    color: inherit;
-    vertical-align: super;
-    text-decoration: none;
 }
 
 .drop-cap {
