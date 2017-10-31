@@ -241,3 +241,13 @@ h5 {
 .text-white {
   color: white;
 }
+
+.source-link {
+  font-weight: 400;
+  color: black;
+}
+
+.source-link:hover {
+  color: black;
+  text-decoration: none;
+}
