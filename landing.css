@@ -163,9 +163,9 @@ li {
     color: black;
     font-size: 16px;
 }
- li a {
-     color: #0060B2;
- }
+.ref-list a {
+    color: #0060B2;
+}
 
 .line {
   font-weight: 400;
