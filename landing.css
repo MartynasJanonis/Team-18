@@ -103,7 +103,8 @@ a:visited {
 }
 
 a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
+  text-decoration:none;
+  color: black;
 }
 
 .logo {
@@ -257,6 +258,10 @@ h5 {
   color: white;
 }
 
+.background-white {
+  background-color: white;
+}
+
 .source-link {
   font-weight: 400;
   color: black;
@@ -265,4 +270,9 @@ h5 {
 .source-link:hover {
   color: black;
   text-decoration: none;
+}
+
+.bains-quote-padding {
+  margin-top: 15vh !important;
+  margin-bottom: 15vh !important;
 }
