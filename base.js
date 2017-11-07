@@ -11,6 +11,13 @@ $(document).ready(function() {
   console.log("history height = " + researchHeight);
 
   $(window).scroll(function () {
+    var addConstant = 0;
+    var landingHeight = 0;
+    var historyHeight = 0;
+    var researchHeight = 0;
+    landingHeight = $('#landing-height').outerHeight();
+    historyHeight = $('#history').outerHeight();
+    researchHeight = $('#Research').outerHeight();
     console.log("scroll pos = " + $(this).scrollTop());
     if ($(this).scrollTop() < (landingHeight+addConstant)) {
       $('#section-text').text("History");
