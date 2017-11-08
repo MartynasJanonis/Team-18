@@ -276,3 +276,55 @@ h5 {
   margin-top: 15vh !important;
   margin-bottom: 15vh !important;
 }
+
+/* Responsive shizzle */
+
+@media screen and (min-width: 1500px) {
+  .background {
+    position: fixed;
+    left: 20vw;
+    right: 20vw;
+    height: 100vh;
+    z-index: -2;
+  }
+
+  .root {
+    position: relative;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  .background-text {
+    position: fixed;
+    left: 20vw;
+    right: 20vw;
+    height: 100vh;
+    z-index: -2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav {
+    position: fixed;
+    padding-top: 25px;
+    padding-bottom: 2vh;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+
+  h1 {
+    margin-top: 20vh;
+    font-family: "europa";
+    font-weight: 700;
+    color: black;
+    font-size: 130px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .root{
+    background-color: red;
+  }
+}
