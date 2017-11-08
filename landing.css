@@ -277,6 +277,10 @@ h5 {
   margin-bottom: 15vh !important;
 }
 
+.show-on-mobile {
+  display: none;
+}
+
 /* Responsive shizzle */
 
 @media screen and (min-width: 1500px) {
@@ -321,10 +325,100 @@ h5 {
     color: black;
     font-size: 130px;
   }
+
+  .show-on-mobile {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 991px) {
-  .root{
-    background-color: red;
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .show-on-mobile {
+    display: block;
+  }
+
+  .background {
+    left: 0vw;
+    right: 0vw;
+  }
+
+  .root {
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+
+  .nav-button {
+    font-size: 14px;
+    margin-left: -30px;
+  }
+
+  .logo {
+    width: 25px;
+    margin-left: -20px;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  div[class^="col-"] {
+    padding-right:10vw;
+    padding-left:10vw;
+  }
+
+  #section-text {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  h2 {
+    font-size: 35vw;
+  }
+
+  p, li {
+    font-size: 14px;
+    line-height: 1.8em;
+  }
+
+  .drop-cap {
+    font-size: 32px;
+    padding-top: 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  .quote {
+    font-size: 24px;
+  }
+
+  .img-history {
+    width: 100vw;
+    padding-bottom: 5vh;
+    margin-left: -10vw;
+  }
+
+  .ref {
+    margin-top: -10vh;
+  }
+
+  .bains-quote-padding {
+    margin-top: 10vh !important;
+    margin-bottom: 10vh !important;
+  }
+
+  .fin {
+    width: 80vw !important;
   }
 }
