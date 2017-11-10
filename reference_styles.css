@@ -1,7 +1,0 @@
-/* When this class is assigned to a tag, which is typically an <a></a> tag, it will make the text superscript and smaller - it will appear like references in Wikipedia */
-
-.ref {
-    font-size: 9px;
-    vertical-align: super;
-    text-decoration: none;
-}
